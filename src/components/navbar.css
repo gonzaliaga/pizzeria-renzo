@@ -1,0 +1,21 @@
+.navbar-custom {
+  width: 100% !important;
+  position: sticky !important;
+  top: 0 !important;
+  background-color: red !important; /* Añade este estilo temporal para verificar la aplicación de la clase */
+  z-index: 1000 !important; /* Ajusta según sea necesario para la superposición */
+}
+
+  
+  /* Estilos para los enlaces del Navbar */
+  .nav-link-custom {
+    color: #ffffff; /* Color del texto */
+    margin-right: 15px; /* Espacio entre los enlaces */
+  }
+  
+  /* Estilo para el enlace activo en el Navbar */
+  .nav-link-custom.active {
+    font-weight: bold;
+    color: #ffcc00; /* Puedes cambiar este color según tus preferencias */
+  }
+  
